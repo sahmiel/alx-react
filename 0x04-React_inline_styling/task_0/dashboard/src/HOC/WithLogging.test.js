@@ -5,10 +5,7 @@
  import { mount } from 'enzyme';
  import Login from '../Login/Login';
  import WithLogging from './WithLogging';
- import { StyleSheetTestUtils } from 'aphrodite';
  
- StyleSheetTestUtils.suppressStyleInjection();
-
  describe('<WithLogging /> HOC', () => {
    it('verify the console.log output when mounting and umounting pure HTML', () => {
      const spy = jest.spyOn(console, 'log');

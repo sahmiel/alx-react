@@ -1,10 +1,12 @@
-.App-body {
-  font-size: 1rem;
-  padding: 2em;
-  border-bottom: 3px solid #e0354b;
-  height: 45%;
+:root {
+  --principal-color: #e14852;
 }
 
-form input {
-  margin: 10px;
+.body-login {
+  margin: 50px 0 350px 60px;
+  flex-grow: 1;
+}
+
+.body-login input {
+  margin: 0 20px 0 10px;
 }
